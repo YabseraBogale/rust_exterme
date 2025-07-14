@@ -5,7 +5,7 @@ fn main() {
 
     let args: Vec<String> = args().collect();
 
-    if args[0] == "-n" {
+    if args[1] == "-n" {
         println!("ok");
     }
 }
