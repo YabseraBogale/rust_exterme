@@ -1,3 +1,7 @@
+use std::env::{self, args};
 fn main() {
-    println!("Hello, world!");
+    let args: Vec<String> = env::args().collect();
+    for i in args {
+        print!("{}", i);
+    }
 }
